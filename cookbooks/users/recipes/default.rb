@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-require 'pry'; binding.pry
+# require 'pry'; binding.pry
 
 search("users", "*:*").each do |user_data|
   user user_data["id"] do
