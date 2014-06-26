@@ -1,0 +1,411 @@
+  474  git clone $ git clone git://github.com/opscode/chef-repo.git
+  475  $ git clone git://github.com/opscode/chef-repo.git
+  476  git clone git://github.com/opscode/chef-repo.git
+  477  cd chef-repo/
+  478  sudo mkdir -p ~/chef-repo/.chef
+  479  sudo rm -rf ~/chef-repo/.chef/
+  480  sudo mkdir .chef
+  481  echo ".chef" >> .gitignore
+  482  git status
+  483  knife
+  484  knife client list
+  485  curl -L https://www.opscode.com/chef/install.sh | sudo bash
+  486  chef-client 
+  487  chef-client -v
+  488  which chef-client
+  489  gem unintall chef-clint
+  490  gem uninstall chef-clint
+  491  gem uninstall chef
+  492  which chef-client
+  493  ls -al /usr/bin/chef-client
+  494  ls -al /opt/chef/bin/chef-client 
+  495  cat /opt/chef/bin/chef-client 
+  496  ruby chef-client
+  497  chef-client
+  498  chef-client -v
+  499  clear
+  500  exit
+  501  chef-client 
+  502  gem install chef
+  503  gem install chef
+  504  chef-client
+  505  chef-client -v
+  506  cd chef-repo/
+  507  ls -al
+  508  ls .chef
+  509  ls
+  510  pwd
+  511  ls .chef
+  512  pwd
+  513  mkdir .chef
+  514  ls
+  515  git init .
+  516  ls -al
+  517  history | grep curl
+  518   curl -L https://www.opscode.com/chef/install.sh | sudo bash
+  519   curl -L https://www.opscode.com/chef/install.sh | bash
+  520  sudo chown echang .chef
+  521  ls
+  522  sudo chown echang .
+  523  ls -al
+  524  git init .
+  525  git remote add upstream git@github.com:ericchang/chef-training.git
+  526  git remote rm upstream
+  527  git remote add origin git@github.com:ericchang/chef-training.git
+  528  git fetch origin
+  529  git status
+  530  git log
+  531  git status
+  532  git add .
+  533  git status
+  534  git status
+  535  git fetch -all
+  536  git fetch --all
+  537  git branch
+  538  git add -u .
+  539  git status
+  540  git add 
+  541  git add .
+  542  git branch
+  543  git checkout master
+  544  git push origin master
+  545  git log
+  546  git status
+  547  ls
+  548  knife
+  549  unzip -t ~/Downloads/chef-starter.zip 
+  550  unzip  ~/Downloads/chef-starter.zip 
+  551  ls
+  552  mv chef-repo/* .
+  553  git status
+  554  cat chef-repo/
+  555  rm -rf chef-repo/
+  556  ls
+  557  ls .chef
+  558  ls
+  559  ls
+  560  powd
+  561  ls
+  562  git status
+  563  git add .
+  564  git status
+  565  ls
+  566  ls
+  567  find .
+  568  ls -al
+  569  ls .chef
+  570  unzip  ~/Downloads/chef-starter.zip 
+  571  ls
+  572  mv chef-repo/.chef/ .
+  573  rm -rf chef-repo/
+  574  ls .chef/
+  575  ls .chef/knife.rb 
+  576  vi .chef/knife.rb 
+  577  knife --version
+  578  knife client list
+  579  ls
+  580  vi .chef/knife.rb 
+  581  knife client list
+  582  vi .chef/knife.rb 
+  583  knife client list
+  584  knife --help
+  585  git status
+  586  git add .
+  587  git status
+  588  git commit -m "initial state from chef server"
+  589  git status
+  590  git push origin master
+  591  sublime
+  592  gits tatus
+  593  git status
+  594  ls .chef
+  595  git status
+  596  ls
+  597  s
+  598  cat .gitignore 
+  599  git status
+  600  rm ~/Downloads/chef-starter*
+  601  unzip ~/Downloads/chef-starter.zip 
+  602  ls
+  603  ls
+  604  mv chef-repo/.chef/* .chef/
+  605  git status
+  606  mv chef-repo/.gitignore .
+  607  git status
+  608  git diff .gitignore
+  609  git status
+  610  ls cookbooks/
+  611  pwd
+  612  git status
+  613  git add .
+  614  git status
+  615  vi .gitignore 
+  616  git status
+  617  rm -rf chef-repo/
+  618  git status
+  619  git add -u .
+  620  ls
+  621  git status
+  622  git rm .chef/eric-inc-validator.pem .chef/ericchang.pem
+  623  git status
+  624  git rm -f .chef/eric-inc-validator.pem .chef/ericchang.pem
+  625  git status
+  626  ls .chef/
+  627  more .gitignore 
+  628  gits tatus
+  629  git status
+  630  git commit -m "re-generating pem keys and adding a proper gitignore" .
+  631  git status
+  632  git status
+  633  git push origin master 
+  634  git status
+  635  git status
+  636  git status
+  637  git status
+  638  unzip ~/Downloads/chef-starter.zip 
+  639  ls
+  640  git status
+  641  mv chef-repo/.chef/*.pem .chef/
+  642  git staus
+  643  git status
+  644  git diff chef-repo/
+  645  git status
+  646  ls chef-repo/
+  647  rm -rf chef-repo/
+  648  git staus
+  649  knife --help
+  650  history | grep knife
+  651  knife client list
+  652  knife bootstrap uvo106tqdt6r4kgvakk.vm.cld.sr --sudeo -x chef -P chef -N "node1"
+  653  knife bootstrap uvo106tqdt6r4kgvakk.vm.cld.sr --sudo -x chef -P chef -N "node1"
+  654  knife --help
+  655  knife bootstrap uvo106tqdt6r4kgvakk.vm.cld.sr --sudo -x chef -P chef -N "bob"
+  656  knife bootstrap uvo106tqdt6r4kgvakk.vm.cld.sr --sudo -x chef -P chef -N "node1"
+  657  knife cookbook create apache
+  658  ls
+  659  knife cookbook upload apache
+  660  ls tail
+  661  knife node run_list add node1 "recipe[apache::default]"
+  662  knife cookbook upload apache
+  663  knife cookbook upload apache
+  664  knife cookbook upload apache
+  665  cat cookbooks/apache/files/default/index.html 
+  666  cat cookbooks/apache/recipes/default.rb 
+  667  knife cookbook upload apache
+  668  knife cookbook upload apache
+  669  knife node show node1
+  670  knife node show node1 -a fqdn
+  671  knife search node "*:*" 
+  672  knife cookbook upload apache
+  673  knife cookbook upload apache
+  674  knife cookbook upload apache
+  675  pwd
+  676  git status
+  677  git add .
+  678  git commit -m "apache cookbook" .
+  679  git push origin master 
+  680  history | grep create
+  681  knife cookbook create motd
+  682  vi cookbooks/motd/attributes/default.rb
+  683  vi cookbooks/motd/recipes/default.rb 
+  684  vi cookbooks/motd/templates/default/motd.erb
+  685  knife upload motd
+  686  history | grep upload
+  687  knife cookbook upload motd
+  688  knife cookbook create pci
+  689  vi cookbooks/pci/attributes/default.rb
+  690  knife cookbook upload pci
+  691  knife node run_list add node1 "recipe[motd]"
+  692  knife node show node1
+  693  knife cookbook upload pci
+  694  knife node run_list add node1 "recipe[pci]"
+  695  knife node show node1
+  696  knife cookbook upload motd
+  697  knife cookbook upload motd
+  698  knife cookbook upload motd
+  699  knife cookbook upload motd
+  700  knife cookbook upload motd
+  701  knife search node "pci" 
+  702  knife search node "pci:" 
+  703  knife search node "pci:"* 
+  704  knife search node "pci:*" 
+  705  knife search node "foo:*" 
+  706  knife search node "foo:default" 
+  707  knife search node "pci:default" 
+  708  knife search node "pci::default" 
+  709  knife search node "pci:*" -l 
+  710  knife search node "pci:*" -l  | grep pci
+  711  knife search node --help
+  712  knife search node "pci:*" --verbose --verbose
+  713  knife search node "pci:*" -l  | grep -a1 pci
+  714  knife search node "pci:*" -l  | grep -a1 -b0 ci
+  715  knife search node "pci:*"  | grep -a1 -b0 ci
+  716* knife search node "pci:*"  [A
+  717  knife search node "pci:*"  | grep -a1 -b0 pci
+  718  knife search node "pci:*" -l  | grep -a1 -b0 pci
+  719  knife cookbook upload pci
+  720  knife cookbook upload pci
+  721  knife cookbook --help
+  722  knife cookbook --help
+  723  knife cookbook delete upload --help
+  724  knife cookbook delete pci
+  725  knife cookbook upload motd
+  726  knife cookbook upload pci
+  727  git status
+  728  git add .
+  729  gti commit -m "adding motd, pci cookbooks"
+  730  git commit -m "adding motd, pci cookbooks"
+  731  git push --force origin 
+  732  git status
+  733  git stauts
+  734  git diff
+  735  git status
+  736  gits tatus
+  737  git status
+  738  git add .
+  739  knife cookbook upload apache
+  740  knife cookbook upload apache
+  741  knife cookbook upload apache
+  742  knife cookbook upload apache
+  743  knife cookbook upload apache
+  744  knife cookbook upload apache
+  745  knife cookbook upload apache
+  746  knife cookbook upload apache
+  747  git status
+  748  git add .
+  749  git commit -m "apache cookbook refator"
+  750  git push origin master
+  751  mkdir -p data_bags/users
+  752  knife data_bag create users
+  753  vi data_bags/users/bobo.json
+  754  knife data_bag --help
+  755  knife data_bag 
+  756  knife data_bag --help | grep data_bag
+  757  knife data_bag --help
+  758  vi data_bags/users/bobo.json
+  759  knife data_bag from file users bobo.json
+  760  history | grep bag
+  761  vi data_bags/users/frank.json
+  762  knife data_bag from file users frank.json
+  763  knife search users "*:*"
+  764  knife search users "id:bobo" -a shell
+  765  mkdir -p data_bags/groups
+  766  knife data_bag create groups
+  767  vi data_bags/groups/clowns.json
+  768  knife data_bag upload from file groups clowns.json
+  769  knife data_bag from file groups clowns.json
+  770  knife search "group:group"
+  771  knife search "groups:group"
+  772  knife search "groups:*"
+  773  knife cookbook create users
+  774  vi cookbooks/users/recipes/default.rb 
+  775  vi cookbooks/users/recipes/groups.rb
+  776  knife search "groups:*"
+  777  knife search "*:*"
+  778  knife search users "*:*"
+  779  knife cookbook upload users
+  780  knife add run_list node1 users
+  781  knife run_list addd node1 users
+  782  knife run_list
+  783  knife node --help
+  784  knife node run_list add node1 users
+  785  knife search node "*:*"
+  786  vi cookbooks/users/recipes/groups.rb
+  787  vi cookbooks/users/recipes/default.rb 
+  788  knife cookbook upload users
+  789  pry
+  790  git stauts
+  791  knife cookbook upload users
+  792  knife cookbook upload users
+  793  mkdir roles
+  794  vi roles/webserver.rb
+  795  git status
+  796  git add cookbooks/users/ data_bags/
+  797  git status
+  798  git commit -m "data bags" .
+  799  git push origin master
+  800  knife role from file webserver.rb
+  801  knife role show webserver
+  802  vi cookbooks/users/recipes/default.rb 
+  803  knife cookbook upload users
+  804  find . -name index.html.erb
+  805  cat ./cookbooks/apache/templates/default/index.html.erb
+  806  vi cookbooks/users/recipes/default.rb 
+  807  vi roles/webserver.rb 
+  808  vi roles/starter.rb 
+  809  knife role from file webserver.rb
+  810  knife node search "role:webserfver"
+  811  knife node search "role:webserver"
+  812  knife search node "role:webserver"
+  813  knife role from file webserver.rb
+  814  knife search node "role:webserver" -a apache.sites
+  815  git status
+  816  git add .
+  817  git commit -m "roles" .
+  818  git push origin master
+  819  git status
+  820  vi roles/base.rb
+  821  knife role
+  822  knife role from file roles base
+  823  knife role from file roles base.rb
+  824  knife role from file role base
+  825  knife role from file role base.rb
+  826  history | grep from
+  827  knife role from file base.rb
+  828  vi roles/webserver.rb 
+  829  knife role from file webserver.rb
+  830  git diff
+  831  cat roles/base.rb 
+  832  mkdir environments
+  833  vi environments/dev.rb
+  834  knife environment from file dev.rb
+  835  knife environment show dev
+  836  vi environments/production.rb
+  837  knife environment from file production.rb
+  838  knife cookbook site download chef-client
+  839  git status
+  840  git add roles/
+  841  git add environments/
+  842  git status
+  843  git diff --cached
+  844  git commit -m "environments" .
+  845  git push origin master
+  846  ls
+  847  git status
+  848  tar -xzvf chef-client-3.6.0.tar.gz 
+  849  find chef-client
+  850  knife cookbook site install chef-client
+  851  git status
+  852  git add chef-client
+  853  git rm chef-client-3.6.0.tar.gz
+  854  rm chef-client
+  855  rm chef-client-3.6.0.tar.gz 
+  856  git status
+  857  git commit -m "chef client"
+  858  git push origin master
+  859  du -h chef-client/
+  860  du -s -h chef-client/
+  861  knife cookbook upload chef-flient cron logrotate
+  862  knife cookbook upload chef-client
+  863  ls
+  864  ls cookbooks/
+  865  vi roles/base.rb 
+  866  vi cookbooks/chef-client/recipes/default.rb 
+  867  knife role from file roles base.rb
+  868  knife role from file  base.rb
+  869  knife role upload from file  base.rb
+  870  knife role from file  base.rb
+  871  vi cookbooks/chef-client/recipes/default.rb 
+  872  vi roles/base.rb 
+  873  vi cookbooks/chef-client/recipes/default.rb 
+  874  knife role from file  base.rb
+  875  vi cookbooks/chef-client/recipes/default.rb 
+  876  find . -name default.rb
+  877  find . -name service.rb
+  878  vi ./chef-client/recipes/service.rb
+  879  git status
+  880  git diff
+  881  git add .
+  882  git commit --amend
+  883  git push --force origin master
+  884  history > command.history
